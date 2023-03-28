@@ -1,7 +1,3 @@
 # crispy-jucer-dj
 The DJ decks are based on jucer.
 ![image](https://user-images.githubusercontent.com/19183892/228102720-e9dff319-dbf4-459e-ab1d-56e08ffef505.png)
-
-We can load audio files into player by clicking load button or dragging the file directly. After loading files, this application can play two tracks on deck control component or play the default one on music library component. I can mix the tracks by varying each of their volumes or changing each of their speeds.
-The deck control component has a null disk image if nothing is loaded and a rotating disk if any audio files loaded. On the left of disk, there is an IIR filter for user to design his own audio filter and user can select to disable it. The next is the point setting and recalling, user can set the point to the audio file and recall to the set position. The last is the reverb parameter, user can set this six reverb parameter to get different reverb feeling.
-We also can load files to music library component by clicking load button or dragging files directly. After files loading, we can see the audio files are parsed into filename and song length. We can sort audio files by its table heading and search file by giving some hints and clicking search button. Since we find the file, we can load the file by dragging or choosing the deck in the combo box. Finally, the music library persists when the user exits then restarts the application.
